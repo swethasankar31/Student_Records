@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>STUDENTS RECORDS</title>
+    <link rel="stylesheet" href="C:\Users\swetha\OneDrive\Desktop\web\student.css">
+</head>
+<body> 
+<div>
+  <center>
+    <h2><caption align="top"><b>STUDENT RECORDS</b></caption></h2>
+  </center></br>
+    <form method="post" action="" name="submit-to-google-sheet" >
+
+        <label>Name:</label><br>
+        <input type="text" name="Name" pattern="^[A-Za-z]+$"required title="enter the characters between A-Z OR a-z"></br></br>
+
+        <label>Email:</label></br>
+        <input type="email" name="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required></br></br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="Gender" value="Male"><label>Male</label>
+        <input type="radio" name="Gender" value="Female"><label>Female</label><br><br>
+
+        <label>DOB:</label>
+        <input type="date" name="DOB"></br></br>
+
+        <label>Department:</label>
+        <input type="text" name="Department"></br></br>
+
+        <input type="submit" name="submit">
+        <span id="success"></span>
+
+    </form>
+  </div>
+  
+  <script src="student.js"></script>
+
+</body>
+
+</html>

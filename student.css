@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 280px;
+    height: auto;
+    padding: 40px;
+    border-radius: 10px;
+    background: white; /* Added background for better visibility */
+}
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color:rgb(26, 26, 221) ;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #480ae4;
+  }
+  
+  span#success {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
